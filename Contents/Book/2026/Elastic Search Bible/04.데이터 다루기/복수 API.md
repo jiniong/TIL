@@ -1,4 +1,17 @@
-# bulk API
+# 복수 API
+
+- 분류: 독서
+- 출처: Elastic Search Bible
+- 책 목차: [Elastic Search Bible](../README.md)
+
+## 목차
+
+- [bulk API](#bulk-api)
+- [multi get API](#multi-get-api)
+- [update by query](#update-by-query)
+- [delete by query](#delete-by-query)
+
+## bulk API
 
 여러 색인, 업데이트, 삭제를 한 번의 요청에 담아서 보내는 api
 
@@ -24,7 +37,7 @@ bullk api의 작업은 그 순서대로가 아닌, 여러 개의 주 샤드로 �
 
 → 완전히 동일한 인덱스, _id 값, 라우팅 조합은 반드시 동일한 주 샤드로 넘어가 순서가 보장됨
 
-# multi get API
+## multi get API
 
 _id를 여러개 지정하여 문서를 한 번에 조회하는 api
 
@@ -52,7 +65,7 @@ GET [인덱스 이름]/_mget
 }
 ```
 
-# update by query
+## update by query
 
 조건에 만족하는 문서 전체 업데이트
 
@@ -150,7 +163,7 @@ POST [인덱스 이름]/_update_by_query?slices=auto
 
 requests_per_second 매개변수는 각 슬라이스에 쪼개져서 적용됨 (slices가 4, requests_per_second가 1000 → 각 슬라이스는 250씩 분배)
 
-# delete by query
+## delete by query
 
 update by query와 같이 검색 쿼리로 삭제할 대상을 지정한 후에 삭제 수행
 

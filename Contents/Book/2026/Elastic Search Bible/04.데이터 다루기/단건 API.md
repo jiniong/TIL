@@ -1,4 +1,17 @@
-# 색인
+# 단건 API
+
+- 분류: 독서
+- 출처: Elastic Search Bible
+- 책 목차: [Elastic Search Bible](../README.md)
+
+## 목차
+
+- [색인](#색인)
+- [조회](#조회)
+- [업데이트](#업데이트)
+- [삭제](#삭제)
+
+## 색인
 
 ```bash
 PUT [인덱스 이름]/_doc
@@ -17,7 +30,7 @@ PUT [인덱스 이름]/_create/[_id 값] # 같은 _id 값의 문서가 존재할
 
 wait_for로 max_refresh_listeners를 넘어 refresh 대기 중인 경우에 강제 refresh 적용 가능
 
-# 조회
+## 조회
 
 조회의 경우 translog에서도 데이터를 읽어올 수 있어 refresh 되지 않아도 변경 내용 확인 가능
 
@@ -32,7 +45,7 @@ _source_includes는 _source로 줄여쓸 수 있으나, 문서의 _source를 포
 
 라우팅을 사용한 경우 색인 시 사용한 라우팅과 동일하게 지정해야 의도하는 문서 조회가 가능함
 
-# 업데이트
+## 업데이트
 
 기본적으로 부분 업데이트로, 전체 업데이트가 필요한 경우에는 색인 문서를 사용해야 함
 
@@ -92,7 +105,7 @@ POST [인덱스 이름]/_update/[_id 값]
 
 라우팅의 경우 색인과 동일한 routing id를 사용해야 하고, refresh도 성능을 고려해야 함
 
-# 삭제
+## 삭제
 
 ```bash
 DELETE [인덱스 이름]/_delete/[_id 값]
