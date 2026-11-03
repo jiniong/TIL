@@ -1,7 +1,7 @@
 # 주제별 지식 지도
 
 - 분류: 색인
-- 갱신일: 2026-10-29
+- 갱신일: 2026-11-03
 - 출처: 저장소의 질문·실습·독서·영상 노트
 
 ## 목차
@@ -17,6 +17,8 @@
 날짜별 기록은 [전체 목차](README.md), 새 기록의 형식과 갱신 기준은 [템플릿](TEMPLATE.md)에서 확인합니다. 질문으로 원리를 이해하고 관련 실습에서 실제 동작을 확인합니다.
 
 ## 인프라와 Kubernetes
+
+- [FastAPI 백엔드의 구조와 Spring의 대응 관계](Question/2026/1103-FastAPI백엔드구조.md)
 
 - [VM과 컨테이너의 실행 구조](Question/2026/1022-VM%EA%B3%BC%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 - [ECS·EKS와 EC2·Fargate의 역할](Question/2026/1022-AWS%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EA%B4%80%EB%A6%AC.md)

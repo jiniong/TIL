@@ -74,6 +74,8 @@ Contents의 독서·실습·질문·영상 노트를 분류별로 찾아볼 수 
 - [글자가 숫자로 계산되어 답변이 되는 과정](Question/2026/1029-%ED%86%A0%ED%81%B0%EC%83%9D%EC%84%B1%EC%88%AB%EC%9E%90%EC%98%88%EC%8B%9C.md)
 - [토큰·컨텍스트·파라미터 숫자의 의미](Question/2026/1029-%ED%86%A0%ED%81%B0%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8%EC%99%80%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0.md)
 
+- [FastAPI 백엔드의 구조와 Spring의 대응 관계](Question/2026/1103-FastAPI백엔드구조.md)
+
 ## 영상
 
 ### 2025
